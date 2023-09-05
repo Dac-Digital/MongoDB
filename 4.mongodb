@@ -1,0 +1,1 @@
+db.companies.updateMany({ "employees": {  $elemMatch: { "salary": { $lte: 8000 } } } }, { $inc: {"employees.$[].salary": 500}})
