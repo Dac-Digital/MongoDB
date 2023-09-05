@@ -1,0 +1,20 @@
+{
+    name: 'Great Stuff Company',
+    employees: [
+      { role: 'manager', salary: 15500, city: 'Warsaw' },
+      { role: 'worker', salary: 10500, city: 'Warsaw' },
+      { role: 'worker', salary: 8500, city: 'Warsaw' },
+      { role: 'worker', salary: 8000, city: 'Warsaw' },
+      { role: 'worker', salary: 5500, city: 'Warsaw' }
+    ]
+  },
+  {
+    name: 'Goods Unlimited LLC',
+    employees: [
+      { role: 'goods manager', salary: 15500, city: 'New York' },
+      { role: 'worker', salary: 10500, city: 'Washington' },
+      { role: 'worker', salary: 8500, city: 'Washington' },
+      { role: 'worker', salary: 8000, city: 'New York' },
+      { role: 'worker', salary: 5500, city: 'New York' }
+    ]
+  }
