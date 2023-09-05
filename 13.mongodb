@@ -1,0 +1,1 @@
+db.company.updateOne({}, { $inc: { "departments.$[headCountFilter].managers.$[salaryFilter].salary": 5000 } }, { arrayFilters: [ { "headCountFilter.headCount": { $lt: 30} }, {"salaryFilter.salary": { $lte: 4000} } ] } )
