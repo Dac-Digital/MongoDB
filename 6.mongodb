@@ -1,0 +1,25 @@
+db.companies.find()
+[
+  {
+    _id: ObjectId("6421a143b710d446cf57ac02"),
+    name: 'Great Stuff Company',
+    employees: [
+      { role: 'manager', salary: 16000, city: 'Warsaw' },
+      { role: 'worker', salary: 11000, city: 'Warsaw' },
+      { role: 'worker', salary: 9000, city: 'Warsaw' },
+      { role: 'worker', salary: 8500, city: 'Warsaw' },
+      { role: 'worker', salary: 6000, city: 'Warsaw' }
+    ]
+  },
+  {
+    _id: ObjectId("6422c36c51d25f78ca3b7e65"),
+    name: 'Goods Unlimited LLC',
+    employees: [
+      { role: 'goods manager', salary: 16000, city: 'New York' },
+      { role: 'worker', salary: 11000, city: 'Washington' },
+      { role: 'worker', salary: 9000, city: 'Washington' },
+      { role: 'worker', salary: 8500, city: 'New York' },
+      { role: 'worker', salary: 6000, city: 'New York' }
+    ]
+  }
+]
