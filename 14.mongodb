@@ -1,0 +1,20 @@
+{
+    departments: [
+      {
+        deptName: 'HR',
+        headCount: 30,
+        managers: [
+          { name: 'John', salary: 5000 },
+          { name: 'Jane', salary: 6000 }
+        ]
+      },
+      {
+        deptName: 'Sales',
+        headCount: 15,
+        managers: [
+          { name: 'Alex', salary: 7000 },
+          { name: 'Stephanie', salary: 8500 }
+        ]
+      }
+    ]
+  }
