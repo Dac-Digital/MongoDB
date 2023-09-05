@@ -1,0 +1,1 @@
+db.companies.updateMany({}, { $inc: { "employees.$[salaryFilter].salary": 500 } }, { arrayFilters: [ {"salaryFilter.role": "worker", "salaryFilter.city": "Warsaw"} ]})
